@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html>
+<head>
+    <title>@ViewBag.Title - A4S</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/reset-min.css">
+    <link rel="stylesheet" href="~/Content/css/frame.css">
+    <script src="~/Content/scripts/html5.js"></script>
+    <link href="~/Content/css/main.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="">
+    <script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-455556-3']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/media.css">
+</head>
+<body>
+
+    @RenderBody()
+
+    <!-- #frame -->
+    @*<div id="frame">
+        <div>
+            <section id="wrapper">
+                <section class="main">
+                    <figure class="logo">
+                        <a href="http://templates.entheosweb.com/"><img src="images/logo.jpg" width="153" height="52" border=0 /></a>
+                    </figure>
+                    <article class="type">
+                        &nbsp;&nbsp;Template ID: <strong>52895</strong>&nbsp;&nbsp;Type: <strong>
+                            <a href="/types/Drupal.asp">Drupal</a>
+                            &nbsp;&nbsp;<a href="http://templates.entheosweb.com/template_number/52895.asp">More..</a>
+                    </article>
+                    <article class="addthis">
+                        <!-- AddThis Button BEGIN -->
+                        <div class="addthis_toolbox addthis_default_style" style="width:160px">
+                            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                            <a class="addthis_counter addthis_pill_style"></a>
+                        </div>
+                        <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=entheosweb"></script>
+                        <!-- AddThis Button END -->
+                    </article>
+                    <article class="price">
+                        <span>Price : $75</span>
+                        <a href="http://www.templatehelp.com/preset/cart.php?pr_code=6DIKO16rWJ73XgTMhA8Os61vh4h3wf&act=add&templ=52895&ref=http://templates.entheosweb.com/template_number/52895.asp"><img src="images/buy.jpg" height="29" border="0" /></a>
+                    </article>
+                </section>
+            </section>
+        </div>
+    </div>*@
+    <!-- /#frame -->
+    <!--<iframe src="http://livedemo00.template-help.com/drupal_52895" frameborder="0"></iframe>-->
+
+</body>
+</html>
+
+
+@*<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - My ASP.NET Application</title>
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
+    </html>
+*@
